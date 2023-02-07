@@ -1,7 +1,7 @@
-# The IP list from Cloudflare, updates at least every 30 days
+# The IP list from Cloudflare(China), updates at least every 30 days
 # The runbook runs every day, to compare the list with yesterday's
 # And sends out notification emails once change is detected
-# So the NSG which allows the IP list, will need to be updated accordingly (ENS)
+# So the NSG/Firewall which allows the IP list, will need to be updated accordingly
 
 # Pre-created resources: 
 #  -- Storage account and container
